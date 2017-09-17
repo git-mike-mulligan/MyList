@@ -41,7 +41,6 @@ public class List<T> {
 			firstNode = firstNode.nextNode; 
 		
 		return removedItem; // return removed node data
-
 	}
 	
 	public T removeFromBack() throws EmptyListException {
@@ -64,9 +63,7 @@ public class List<T> {
 			lastNode = current; // current is new lastNode 
 			current.nextNode = null; 
 		} 
-		
-		return removedItem; // return removed node data
-		
+		return removedItem; // return removed node data	
 	}
 	
 	public boolean isEmpty() {
